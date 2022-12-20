@@ -2,7 +2,7 @@ import React from 'react'
 import axios from "axios"
 import * as actionType from "../constants/cartConstant.js";
 
-const URL = "http://localhost:8000";
+const URL = "https://ecommercebyhimanshu.herokuapp.com";
 
 export const addToCart =(id,quantity)=>async(dispatch)=>{
     try{

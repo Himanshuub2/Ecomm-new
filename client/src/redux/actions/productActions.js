@@ -5,7 +5,7 @@ import axios from "axios";
 import* as actionTypes from "../constants/productConstant.js";   ///* is used to import all from a js file, and actionTypes is used to represent them all.
 
 
-const url = "http://localhost:8000";
+const url = "https://ecommercebyhimanshu.herokuapp.com";
 export const getProducts =()=> async(dispatch)=>{
     try{
        const {data} =  await axios.get(`${url}/products`)          //{data} is same as response.data.  we used object destructuring.

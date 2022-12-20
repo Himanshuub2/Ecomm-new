@@ -2,12 +2,12 @@ import React from 'react'
 import { useEffect } from 'react';
 import { Fragment } from 'react';  //fragment is replacement of div it do not create new node and its faster than div.
 //components
-import Navbar from "./Navbar"
-import Banner from "./Banner";
+import Navbar from "./navbar"
+import Banner from "./banner";
 import Slide from './Slide';
 import {styled,Box} from "@mui/material";
-import MidSlide from './MidSlide';
-import MidSection from './MidSection';
+import MidSlide from './midslide';
+import MidSection from './midsection';
 
 import { getProducts } from '../../redux/actions/productActions';
 
