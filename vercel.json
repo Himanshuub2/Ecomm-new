@@ -5,8 +5,8 @@
      
     ],
     "routes": [
-      { "src": "/api/(.*)", "dest": "server/server.js" },
-      { "src": "/(.*)", "dest": "client/next" }
+     
+      { "src": "/(.*)", "dest": "server/server.js" }
     ]
   }
   
